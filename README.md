@@ -4,7 +4,7 @@ This is simple widget for [Übersicht](http://tracesof.net/uebersicht/) for chec
 
 **Please note: data usage cannot show data for last 24 hours**
 
-![screenshot](https://github.com/aplsms/ComcastUsage/ComCap.png "Screenshot")
+![screenshot](ComCap.png "Screenshot")
 
 ## Installation
 
