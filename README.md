@@ -2,7 +2,7 @@
 
 This is simple widget for [Übersicht](http://tracesof.net/uebersicht/) for check and show Comcast usage data.
 
-**Plase note: data usege cannot show data for last 24 hours**
+**Please note: data usage cannot show data for last 24 hours**
 
 ![screenshot](https://github.com/aplsms/ComcastUsage/ComCap.png "Screenshot")
 
@@ -23,7 +23,7 @@ This is simple widget for [Übersicht](http://tracesof.net/uebersicht/) for chec
     # chmod 600 ~/.netrc
     ```
 
-3. Copy `ComCap.widget` directoru to `~/Library/Application Support/Übersicht/widgets/`
+3. Copy `ComCap.widget` directory to `~/Library/Application Support/Übersicht/widgets/`
 
 4. Test script
 
