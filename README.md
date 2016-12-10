@@ -1,6 +1,6 @@
 # ComcastUsage
 
-This is simple widget for [Übersicht](http://tracesof.net/uebersicht/) for check and show Comcast usage data.
+This is simple widget for [Übersicht](http://tracesof.net/uebersicht/) for checking  and showing Comcast usage data.
 
 **Please note: data usage cannot show data for last 24 hours**
 
