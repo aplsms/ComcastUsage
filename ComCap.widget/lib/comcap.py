@@ -40,8 +40,7 @@ from netrc   import netrc
 
 from robobrowser.browser import RoboBrowser
 
-LOGIN = 'https://login.comcast.net/login?' +\
-        'continue=%2fMyServices%2fInternet%2f&s=ccentral-cima&r=comcast.net'
+LOGIN = 'https://customer.xfinity.com/-/cima-login?continue=%2fMyServices%2fInternet%2f'
 SERVICES = 'https://customer.xfinity.com/MyServices/Internet'
 PRELOADER = 'https://customer.xfinity.com/Secure/Preloader.aspx'
 AJAX = 'https://customer.xfinity.com/MyServices/Internet?AJAX=1'
@@ -89,7 +88,7 @@ def login(br):
     except:
         pass
     try:
-        form = br.get_form(attrs={'name': 'redir'})
+        form = br.get_form(attrs={'name': 'mainform'})
     except:
         raise Exception('Failed to login')
     br.submit_form(form)
